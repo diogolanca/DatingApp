@@ -37,4 +37,4 @@ export const ErrorInterceptorProvide = {
   provide: HTTP_INTERCEPTORS,
   useClass: ErrorInterceptor,
   multi: true
-}
+};
